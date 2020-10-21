@@ -1,3 +1,5 @@
 export interface ICommandOptions {
-    aliases: string[];
+    aliases?: string[];
+    category?: string;
+    description?: string;
 }

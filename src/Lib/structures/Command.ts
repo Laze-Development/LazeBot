@@ -6,6 +6,7 @@ export class Command {
     public name: string;
     public aliases: string[] = [];
     public category: string = "Main";
+    public description: string = "No Description"
     public constructor(name: string, options?: ICommandOptions) {
         if(!name) throw new Error("No Name Given");
         this.name = name;
