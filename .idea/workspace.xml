@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e40d23ec-14fc-4c4d-b663-913cbf2edf81" name="Default Changelist" comment="Extended the Database structures and added a Balance command">
-      <change afterPath="$PROJECT_DIR$/src/Bot/commands/economy/balance.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bot/commands/information/help.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bot/commands/information/help.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bot/events/guild/message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bot/events/guild/message.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/database/MemberEntity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/database/MemberEntity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/structures/Command.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/structures/Command.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/structures/extend/Guild.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/structures/extend/Guild.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/structures/extend/GuildMember.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/structures/extend/GuildMember.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/structures/extend/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/structures/extend/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +78,17 @@
       <workItem from="1603175659979" duration="185000" />
       <workItem from="1603220335892" duration="10000" />
       <workItem from="1603276120831" duration="1460000" />
-      <workItem from="1603277631621" duration="2933000" />
+      <workItem from="1603277631621" duration="3095000" />
+      <workItem from="1603281098732" duration="19000" />
     </task>
+    <task id="LOCAL-00001" summary="Extended the Database structures and added a Balance command">
+      <created>1603280594722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603280594722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +139,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603025634745" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603280601352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603280601352" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603026059451">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
