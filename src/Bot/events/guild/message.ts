@@ -10,6 +10,8 @@ export = class MessageEvent extends Event {
     async run(message: Message) {
         if(!message.guild || !message.content.startsWith(prefix)) return;
 
+        // @ts-ignore
+        if(!message.member) message.member = await message.guild.members.fetch(message.author);
         if(!message.guild!.db) await message.guild!.init()
         if(!message.member!.db) await message.member!.init()
         if(!message.author!.db) await message.author!.init()
