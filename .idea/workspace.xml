@@ -1,151 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40d23ec-14fc-4c4d-b663-913cbf2edf81" name="Default Changelist" comment="Extended the Database structures and added a Balance command">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bot/events/guild/message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bot/events/guild/message.ts" afterDir="false" />
-    </list>
+    <list default="true" id="672e15ae-b6b2-409e-8f59-c0c2804124a9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="ov1g8mit" />
+    <option name="directoryName" value="gror03y1" />
   </component>
-  <component name="ProjectId" id="1j2pxmGP6gakCzgUWw78ZwEO9Og" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1jEge1hDVoMcwEsOEn2NozUSAm4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/config.json&#10;C:/Users/Leonardo/Desktop/Coding/JavaScript/Bots/LazeBot/package-lock.json" />
-    <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e40d23ec-14fc-4c4d-b663-913cbf2edf81" name="Default Changelist" comment="" />
-      <created>1603012289938</created>
+      <changelist id="672e15ae-b6b2-409e-8f59-c0c2804124a9" name="Default Changelist" comment="" />
+      <created>1603374758839</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603012289938</updated>
-      <workItem from="1603012290974" duration="3066000" />
-      <workItem from="1603015406061" duration="831000" />
-      <workItem from="1603025495858" duration="271000" />
-      <workItem from="1603025780438" duration="278000" />
-      <workItem from="1603026074252" duration="3021000" />
-      <workItem from="1603175659979" duration="185000" />
-      <workItem from="1603220335892" duration="10000" />
-      <workItem from="1603276120831" duration="1460000" />
-      <workItem from="1603277631621" duration="3095000" />
-      <workItem from="1603281098732" duration="19000" />
+      <updated>1603374758839</updated>
+      <workItem from="1603374760235" duration="1018000" />
     </task>
-    <task id="LOCAL-00001" summary="Extended the Database structures and added a Balance command">
-      <created>1603280594722</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1603280594722</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Extended the Database structures and added a Balance command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extended the Database structures and added a Balance command" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="614" y="150" key="#Plugins" timestamp="1603025824549">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="614" y="150" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1603025824549" />
-    <state x="775" y="453" key="#VCS_History_Cache_Settings" timestamp="1603026061155">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="775" y="453" key="#VCS_History_Cache_Settings/0.0.1920.1080@0.0.1920.1080" timestamp="1603026061155" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1603175817067">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603175817067" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1603175817066">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603175817066" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1603175817066">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603175817066" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1603175817067">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603175817067" />
-    <state x="491" y="185" key="SettingsEditor" timestamp="1603025634745">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603025634745" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603280601352">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603280601352" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603026059451">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603026059451" />
   </component>
 </project>
