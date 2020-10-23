@@ -25,5 +25,6 @@ export = class BalanceCommand extends Command {
 
         message.channel.send(embed)
 
+
     }
 }

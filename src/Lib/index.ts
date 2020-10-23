@@ -6,3 +6,4 @@ export * from "./database/UserEntity";
 export * from "./types";
 export * from "./structures/Command";
 export * from "./structures/Event";
+export * from "./structures/LazeEmbed"
