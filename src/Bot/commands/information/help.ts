@@ -10,8 +10,7 @@ export = class HelpCommand extends Command {
     }
 
     public run(message: Message, args: string[]) {
-
-        let cmd = this.bot.commands.get(args[0]) || this.bot.commands.find(c => c.aliases.includes(args[0]))
+        let cmd = this.bot.commands.get(args[0]) || this.bot.commands.find(c => c.aliases.includes(args[0]))!
         const embed = new MessageEmbed()
         if (cmd) {
             embed

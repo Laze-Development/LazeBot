@@ -6,12 +6,12 @@ export class LazeEmbed extends MessageEmbed {
     public readonly bot: BaseClient;
     public readonly message: Message;
 
-    constructor(message: Message, bot: BaseClient) {
+    constructor(message: Message) {
         super();
         this.message = message;
-        this.bot = bot;
+        this.bot = message.client as BaseClient;
     }
-    
+
     base(content?: string) {
         this.setAuthor(this.message.author.username, this.message.author.displayAvatarURL({dynamic: true}))
             .setFooter(this.bot.user!.username, this.bot.user!.displayAvatarURL({dynamic: true}))

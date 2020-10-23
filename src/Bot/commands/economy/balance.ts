@@ -17,7 +17,7 @@ export = class BalanceCommand extends Command {
         let wallet = member.db!.economy.wallet
 
         let embed = new MessageEmbed()
-            .setAuthor(`**${user.tag}'s** balance`, user.displayAvatarURL({ dynamic: true }))
+            .setAuthor(`${user.tag}'s balance`, user.displayAvatarURL({ dynamic: true }))
             .setDescription([`Bank balance: **${bank}**`,
             `Wallet balance: **${wallet}**`].join("\n"))
             .setTimestamp()
