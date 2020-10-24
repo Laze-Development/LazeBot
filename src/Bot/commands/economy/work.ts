@@ -1,6 +1,9 @@
 import { Command } from "../../../Lib";
 import {Message, MessageEmbed} from "discord.js";
 
+    let Work_Messages: string[] = ["You worked as a {job} and got {money}!"]
+    let Work_Jobs: string[] = ["Developer", "Manager", "Police Man", "Firefighter", "Car Instructor"]
+
 export = class WorkCommand extends Command {
     constructor() {
         super("work", {
@@ -10,13 +13,7 @@ export = class WorkCommand extends Command {
     }
     public run(message: Message, args: string[]) {
         let member = message.member!
-        let { user } = member
 
-        let bank = member.db!.economy.bank
-        let wallet = member.db!.economy.wallet
-
-        let Work_Messages: string[] = ["You worked as a {job} and got {money}!"]
-        let Work_Jobs: string[] = ["Developer", "Manager", "Police Man", "Firefighter", "Car Instructor"]
         let Work_Money = Math.floor(Math.random() * 200)
 
         member.db!.economy.wallet += Work_Money
