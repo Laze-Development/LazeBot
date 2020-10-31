@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06feda84-551a-4fa0-b0ed-221b616bdd3b" name="Default Changelist" comment="" />
+    <list default="true" id="54c17da7-063c-4304-8ee7-5788c13bf9d8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="8bmv59so" />
+    <option name="directoryName" value="sdrpge1z" />
   </component>
-  <component name="ProjectId" id="1jHEVU4OZu7yIiNPyiwF9XOI3tQ" />
+  <component name="ProjectId" id="1jdvqq17JI96QzlNp9BJ49zInz5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,22 +20,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Leonardo\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="06feda84-551a-4fa0-b0ed-221b616bdd3b" name="Default Changelist" comment="" />
-      <created>1603452643174</created>
+      <changelist id="54c17da7-063c-4304-8ee7-5788c13bf9d8" name="Default Changelist" comment="" />
+      <created>1604146979131</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603452643174</updated>
-      <workItem from="1603452644334" duration="782000" />
+      <updated>1604146979131</updated>
+      <workItem from="1604146980175" duration="1567000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="185" key="SettingsEditor" timestamp="1604147344097">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604147344097" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604147335426">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604147335426" />
   </component>
 </project>
