@@ -6,7 +6,7 @@ export = class UserInfoCommand extends Command {
   constructor() {
     super("userinfo", {
       aliases: ["ui"],
-      description: "help yes",
+      description: "Information about a certain user",
     });
   }
 
