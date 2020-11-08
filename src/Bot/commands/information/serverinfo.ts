@@ -5,7 +5,7 @@ export = class ServerinfoCommand extends Command {
     constructor() {
         super("serverinfo", {
             category: "information",
-            description: "help yes"
+            description: "Information about this server."
         });
     }
 
