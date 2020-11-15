@@ -10,12 +10,11 @@ export class ExtendedMember extends Structures.get("GuildMember") {
     }
 
     async init() {
-        this.db =
-            (await MemberEntity.findOne({
-                uid: this.id,
-                gid: this.guild.id
-            })) || new MemberEntity(this.id, this.guild.id);
+        this.db = (await MemberEntity.findOne({
+            uid: this.id,
+            gid: this.guild.id
+        })) || new MemberEntity(this.id, this.guild.id);
     }
 }
 
-Structures.extend('GuildMember', () => ExtendedMember);
+Structures.extend("GuildMember", () => ExtendedMember);

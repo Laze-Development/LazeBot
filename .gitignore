@@ -1,5 +1,11 @@
+## GENERATED
 node_modules
 package-lock.json
 dist
+
+## Private
 config.json
-.idea/
+
+## Editor
+.idea
+.vscode

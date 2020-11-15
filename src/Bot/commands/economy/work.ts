@@ -1,28 +1,27 @@
 import { Command } from "../../../Lib";
-import {Message, MessageEmbed} from "discord.js";
+import { Message } from "discord.js";
 
-    let Work_Messages: string[] = ["You worked as a {job} and got {money}!"]
-    let Work_Jobs: string[] = ["Developer", "Manager", "Police Man", "Firefighter", "Car Instructor"]
-
+const messages = ["You worked as a {job} and got {money}!"];
+const jobs = ["Developer", "Manager", "Police Man", "Firefighter", "Car Instructor",];
 export = class WorkCommand extends Command {
     constructor() {
         super("work", {
             category: "economy",
-            description: "Put description."
+            description: "Put description.",
         });
     }
+
     public run(message: Message, args: string[]) {
-        let member = message.member!
+        let member = message.member!;
 
-        let Work_Money = Math.floor(Math.random() * 200)
+        const money = Math.floor(Math.random() * 200);
 
-        member.db!.economy.wallet += Work_Money
+        member.db!.economy.wallet += money;
 
-        let Work_Responses = Work_Messages[Math.floor(Math.random() * Work_Messages.length)]
-        .replace("{work}", (Work_Jobs[Math.floor(Math.random() * Work_Jobs.length)].toString()))
-        .replace("{money}", (Work_Money.toString()))
+        const res = messages[Math.floor(Math.random() * messages.length)]
+          .replace("{work}", jobs[Math.floor(Math.random() * jobs.length)])
+          .replace("{money}", `${money}`);
 
-        message.sem(Work_Responses)
-
+        message.sem(res);
     }
-}
+};

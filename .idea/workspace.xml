@@ -19,11 +19,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaScript/Padrium" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Leonardo\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\Leonardo\Desktop\Coding\Projects\Laze\Bot\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,21 +34,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604146979131</updated>
-      <workItem from="1604146980175" duration="1567000" />
+      <workItem from="1604146980175" duration="2424000" />
+      <workItem from="1604232425728" duration="738000" />
+      <workItem from="1604427045047" duration="596000" />
+      <workItem from="1604427668809" duration="7000" />
+      <workItem from="1604686754986" duration="150000" />
+      <workItem from="1604687768974" duration="99000" />
+      <workItem from="1605385010913" duration="815000" />
+      <workItem from="1605428757565" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".gitignore" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="185" key="SettingsEditor" timestamp="1604147344097">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1605428772536">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604147344097" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604147335426">
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605428772536" />
+    <state x="491" y="185" key="SettingsEditor" timestamp="1605385177932">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604147335426" />
+    <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605385177932" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1605385169469">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605385169469" />
   </component>
 </project>

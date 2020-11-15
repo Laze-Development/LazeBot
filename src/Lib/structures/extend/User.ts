@@ -10,11 +10,10 @@ export class ExtendedUser extends Structures.get("User") {
     }
 
     async init() {
-        this.db =
-            (await UserEntity.findOne({
-                uid: this.id,
-            })) || new UserEntity(this.id);
+        this.db = (await UserEntity.findOne({
+            uid: this.id,
+        })) || new UserEntity(this.id);
     }
 }
 
-Structures.extend('User', () => ExtendedUser);
+Structures.extend("User", () => ExtendedUser);

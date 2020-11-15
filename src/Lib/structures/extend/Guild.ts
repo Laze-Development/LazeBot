@@ -10,8 +10,7 @@ export class ExtendedGuild extends Structures.get('Guild') {
     }
 
     async init() {
-        this.db =
-            (await GuildEntity.findOne({ gid: this.id })) ||
+        this.db = (await GuildEntity.findOne({ gid: this.id })) ||
             new GuildEntity(this.id);
     }
 }
