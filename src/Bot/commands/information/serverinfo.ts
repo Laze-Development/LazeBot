@@ -1,5 +1,6 @@
 import { Command } from "../../../Lib";
 import { Message, MessageEmbed } from "discord.js";
+import moment from "moment";
 
 export = class ServerinfoCommand extends Command {
     constructor() {
@@ -10,7 +11,6 @@ export = class ServerinfoCommand extends Command {
     }
 
     public run(message: Message, args: string[]) {
-        const moment = require("moment");
         const embed = new MessageEmbed()
           .setAuthor(message.guild?.name)
           .addField(`**Server info 📜 **`, `- **Members:** ${ message.guild?.memberCount } \n - **Region:** ${ message.guild?.region } \n - **Owner:** <@${ message.guild?.ownerID }> \n - **Boost:** ${ message.guild?.premiumSubscriptionCount } \n - **Created:** ${ moment(message.guild?.createdAt).format("LLL") }`, true)
